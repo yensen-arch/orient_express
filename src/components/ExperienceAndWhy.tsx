@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Immersive Cultural Experiences",
-  description: "Delve into curated excursions that celebrate local traditions, art, and history, providing a deep connection to each destination.",
+  title: "Legend Reimagined at Sea",
+  description: "Combining the heritage of Orient Express with the elegance of modern sail-powered luxury.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Breathtaking Scenery",
-  description: "Sail through iconic landscapes, from the sun-kissed coasts of the Mediterranean to the vibrant shores of the Caribbean, all while enjoying panoramic views from your private suite.",
+  title: "Heritage Yacht Design",
+  description: "Crafted for elegance and performance, inspired by golden age sailing traditions.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Exceptional Journey Experience",
-  description: "Indulge in Michelin-starred cuisine by Chef Yannick Alléno, unwind in the luxurious spa, or enjoy live performances in the amphitheater-cabaret. Every detail is crafted to elevate your journey.",
+  title: "Epicurean Voyages",
+  description: "Sophisticated menus curated by Michelin-starred chefs using seasonal Mediterranean ingredients.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Expertly Designed Suites",
-  description: "Each voyage is thoughtfully planned to offer exclusive anchorages and unique experiences, ensuring a memorable adventure at every port.",
+  title: "Curated Cultural Ports",
+  description: "Sail to handpicked ports blending glamour, history, and local authenticity.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Orient Express Sailing Yachts Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
